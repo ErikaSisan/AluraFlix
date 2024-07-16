@@ -20,7 +20,7 @@ O AluraFlix é um projeto em React que permite gerenciar uma coleção de vídeo
 - Fetch API
 - my JSON server (para o banco de dados)
 
-  ### URL: https://alura-flix-one-lake.vercel.app/
+=>URL: https://alura-flix-one-lake.vercel.app/
 
 ## Uso
 
