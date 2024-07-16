@@ -54,7 +54,7 @@ const GlobalContextProvider = ({ children }) => {
   // chamada Categorias da API
   useEffect(() => {
     fetch(
-      "https://my-json-server.typicode.com/EdwardbotA/aluraflix-database/categorias"
+      "https://my-json-server.typicode.com/erikasisan/aluraflix-api/categorias"
     )
       .then((res) => res.json())
       .then((data) => setCategories(data));
@@ -63,7 +63,7 @@ const GlobalContextProvider = ({ children }) => {
   // chamada Videos da API
   useEffect(() => {
     fetch(
-      "https://my-json-server.typicode.com/EdwardbotA/aluraflix-database/videos"
+      "https://my-json-server.typicode.com/erikasisan/aluraflix-api/videos"
     )
       .then((res) => res.json())
       .then((data) => setVideos(data));
